@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* there are all utilities classess  */
+.text-center{
+    text-align: center;
+}
+.btn{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.btn-primary{
+    background-color: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.btn-secondary{
+    background-color: darkcyan;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff
+}
+.btn-danger{
+    background-color: red;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff
+}
+/* there are all utilities classess  */
+
+/* form here started the main css code  */
+.wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.header .header-text{
+    font-size: 40px;
+    color: darkcyan;
+}
+.data{
+    height: 300px;
+    overflow-y: auto;
+}
+
+table{
+    width: 700px;
+    border: 1px solid darkcyan;
+}
+td{
+    text-align: center;
+    font-size: 18px;
+}
+.table-header{
+    background-color: darkcyan;
+    color: #fff;
+    height: 30px;
+    font-size: 20px;
+}
+
+.add-data{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+
+.input-group{
+    margin: 10px 0px;
+}
+.input-group .input-element{
+    width: 400px;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 2px solid darkcyan;
+    font-size: 18px;
+}
+
+.input-group .input-element::placeholder{
+    font-size: 18px;
+}
+

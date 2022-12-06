@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h2 class="text-center header-text">Manager</h2>
+        </div>
+        <div class="content">
+            <div class="add-data">
+                <form onsubmit="return false;" id="add-data-form">
+                    <div class="input-group">
+                        <input autocomplete="off" name="name" type="text" class="input-element" placeholder="Enter the name">
+                    </div>
+                    <div class="input-group">
+                        <input autocomplete="off" name="amount" type="number" class="input-element" placeholder="Enter the Amount">
+                    </div>
+                    <div class="input-group">
+                        <input autocomplete="off" name="comments" type="text" class="input-element" placeholder="Enter the Comments">
+                    </div>
+                    <div class="input-group">
+                        <input name="date" type="date" class="input-element" placeholder="Enter the name">
+                    </div>
+
+                    <div class="text-center">
+                        <button id="add-btn" class="btn btn-primary">Add</button>
+                    </div>
+                </form>
+            </div>
+            <div class="data">
+                <table>
+                    <tbody id="tbody">
+                        
+
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="foooter">
+
+        </div>
+    </div>
+    <script src="function.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>
